@@ -13,5 +13,5 @@ setup(name='package_zero',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/package_zero-run'],
+      scripts=['scripts/package_zero-run', 'scripts/package_zero-guess_number'],
       zip_safe=False)
